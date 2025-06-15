@@ -1,0 +1,7 @@
+user_id,signup_date,country,platform,subscription_id,start_date,end_date,plan,status,event_id,event_type,timestamp,page,event_date,event_hour,ticket_id,created_at,issue_type,resolved_at,resolution_time
+1,2023-01-01,US,Web,201,2023-01-01,2024-01-01,Pro,Active,101.0,page_view,2023-06-01 10:00:00,home,2023-06-01,10.0,301,2023-06-01,Billing,2023-06-02,1.0
+1,2023-01-01,US,Web,201,2023-01-01,2024-01-01,Pro,Active,102.0,click,2023-06-01 10:01:00,pricing,2023-06-01,10.0,301,2023-06-01,Billing,2023-06-02,1.0
+2,2023-02-15,UK,Mobile,202,2023-02-15,2024-02-15,Basic,Active,103.0,page_view,2023-06-02 11:00:00,home,2023-06-02,11.0,302,2023-06-03,Technical,2023-06-04,1.0
+3,2023-03-10,US,Web,203,2023-03-10,2024-03-10,Pro,Cancelled,104.0,click,2023-06-02 11:05:00,features,2023-06-02,11.0,303,2023-06-04,Billing,,
+4,2023-04-20,IN,Web,204,2023-04-20,2024-04-20,Enterprise,Active,105.0,page_view,2023-06-03 12:00:00,contact,2023-06-03,12.0,304,2023-06-05,Account,2023-06-06,1.0
+5,2023-05-25,US,Mobile,205,2023-05-25,2024-05-25,Basic,Trial,,No Event,,,,,305,2023-06-06,Technical,,
