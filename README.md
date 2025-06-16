@@ -1,10 +1,10 @@
 # saas_user_analytics
-####SaaS Analytics 
-Data Intelligence & Business Insights Platform
+##**SaaS Analytics**
+###**Data Intelligence & Business Insights Platform**
 
 
 
-Title Page 
+##**Title Page**
 
 SaaS analytics assignment 
 Prepared by: Yashoratnam
@@ -12,28 +12,28 @@ Date: June 2025
 Organization: Project  
 
 
-Objective : 
+##**Objective :**
 Design and implement an end-to-end data analysis pipeline using Python that helps a hypothetical SaaS business extract actionable insights from customer and product usage data. The intern will clean and transform raw data, perform advanced analytics (including cohort, retention, funnel, and churn analysis), visualize results, and deliver actionable insights to drive business strategy.
 
-Scenario 
+##**Scenario**
 You are working with a SaaS platform that offers subscription-based access to productivity tools. The platform wants to understand customer behavior, product adoption, and growth metrics to inform decisions.
  
 
-Data Collection 
+##**Data Collection** 
 Data provided by the sources is stored in separate CSV files via GitHub. 
 
-Data Cleaning and Modelling 
+##**Data Cleaning and Modelling**
 Cleaned and transformed multiple raw datasets (users, subscriptions, events, support tickets) using pandas.
  All timestamp fields were standardized, and missing values, duplicates, and outliers were handled. 
 Join all the cleaned datasets together and download that file for analysis. 
 Writing extract, transform, and load functions to ensure the system.
 
 
-Methodology
+##**Methodology**
 The analysis was carried out using a modular ETL pipeline and interactive visualizations, with Python and Plotly as the primary tools. The dataset consisted of user activity logs, subscription details, and support ticket histories. Performed EDA and anomaly detection to get business insights with recommendations. 
 
 
-Data Analysis 
+##**Data Analysis** 
 In this report, we analyze a subscription-based SaaS user dataset to understand growth patterns, engagement behaviors, and key performance metrics. The goal is to derive insights that guide product decisions, customer behavior, product adoption, and growth metrics.
 
 User Growth by Signup Cohort (Month): Understand how user signups evolved and identify strong onboarding months. Cohort analysis also helped monitor retention behavior across join dates with enables us to know the product market in a specific period. The figure shows consistent growth over the months. 
@@ -75,7 +75,7 @@ Upgrade: Users who moved from Trial or Basic to a paid plan. Most drop-off happe
 
 
 
-Insights
+##**Insights**
  User Growth by Signup Cohort: Consistent user growth indicates effective marketing and product-market alignment. Peak signup months enable us to have higher retention cohorts.
 Feature Adoption Patterns:  Feature usage is significantly higher among Pro and Enterprise users. Basic-tier users show limited engagement with core features.
 Subscription Plan Trends: Pro and Enterprise plans experience higher churn volatility despite being premium. Basic users exhibit stable usage but lower conversion to paid plans.
@@ -86,7 +86,7 @@ Revenue Metrics (ARR, MRR, ARPU):  ARPU is highest in India and the UK due to a 
 Funnel Analysis: Signup → Activation → Upgrade: Major drop-off happens after signup but before meaningful feature usage. Conversion from activation to paid upgrades remains modest.
 
 
-Business Recommendations
+##**Business Recommendations**
  Analyze and double down on marketing strategies and onboarding practices from months with high signup or activation rates.
  Implement a guided onboarding checklist, showcase feature benefits in the first session, and introduce time-sensitive “first 5-day engagement” campaigns to reduce early churn.
  Monitor Day 1 and Day 7 user activities. Use inactivity as a trigger for personalized nudges via emails or SMS to drive activation.
@@ -99,7 +99,7 @@ Build machine learning models to identify and retain at-risk users. Combine with
  Segment users by plan, region, and behavior. Personalize all messaging—whether for onboarding, upgrades, or re-engagement—to increase conversion and satisfaction.
 
 
-References   
+##**References**   
 Python with commented commands: 
 Saas analytics.ipynb
 
